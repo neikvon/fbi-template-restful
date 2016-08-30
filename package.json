@@ -1,0 +1,35 @@
+{
+  "name": "fbi-template-koa2",
+  "version": "1.0.0",
+  "description": "Template with Koa v2",
+  "author": "fbi",
+  "license": "MIT",
+  "dependencies": {
+    "babel-plugin-async-to-promises": "^1.0.5",
+    "babel-preset-es2015": "^6.13.2",
+    "babel-register": "^6.11.6",
+    "koa": "^2.0.0-alpha.5",
+    "koa-convert": "^1.2.0",
+    "koa-logger": "^2.0.0",
+    "koa-onerror": "^2.0.0",
+    "koa-router": "^7.0.1",
+    "koa-static": "^3.0.0",
+    "require-directory": "^2.1.1"
+  },
+  "devDependencies": {
+    "babel-cli": "^6.11.4",
+    "babel-core": "^6.13.2",
+    "babel-eslint": "^6.1.2",
+    "babel-plugin-array-includes": "^2.0.3",
+    "eslint": "^3.3.1",
+    "eslint-config-airbnb-base": "^5.0.3",
+    "eslint-plugin-babel": "^3.3.0",
+    "eslint-plugin-import": "^1.14.0",
+    "fs-extra": "^0.30.0",
+    "glob": "^7.0.5",
+    "nodemon": "^1.10.2"
+  },
+  "scripts": {
+    "start": "pm2 start config/pm2-prod.json && pm2 show app"
+  }
+}
