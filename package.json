@@ -1,7 +1,7 @@
 {
-  "name": "fbi-template-koa2",
+  "name": "fbi-template-restful",
   "version": "1.0.0",
-  "description": "Template with Koa v2",
+  "description": "RESTful api server.",
   "author": "fbi",
   "license": "MIT",
   "dependencies": {
